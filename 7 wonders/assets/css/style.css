@@ -1,0 +1,39 @@
+.header-img {
+	position: relative;
+}
+
+.header-img img{
+	width: 100%;
+}
+
+.title {
+	position: absolute;
+	top: 20px;
+	z-index: 100;
+}
+
+header .container-fluid {
+	padding: 0;
+}
+
+.bg-green {
+	background-color: #34551A;
+}
+
+.bg-dark-green {
+	background-color: #2F3D23;
+}
+
+body {
+	background-color: #F9E7B9;
+}
+
+
+//*
+color pallete:
+#2F3D23
+#34551A
+#F9E7B9
+#FCCD6E
+#EB8747
+*//
