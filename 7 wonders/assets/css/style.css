@@ -100,6 +100,30 @@ body {
 	text-decoration: none;
 }
 
+.gallery-thumb {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-thumb:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+
+  .img-container {
+    height: 200px;              /* Fiksna visina za sve slike */
+    overflow: hidden;           /* Sakriva višak */
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;          /* Kropuje sliku da popuni prostor */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
 .hover-image {
   position: relative;
   overflow: hidden;
