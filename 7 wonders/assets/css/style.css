@@ -100,6 +100,29 @@ body {
 	text-decoration: none;
 }
 
+.hover-image {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(235, 135, 71, 0.95); /* blue with some transparency */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+  display: none;
+}
+
+.map-container {
+	margin-bottom: 100px;
+}
+
 /*
 color pallete:
 #2F3D23 - Cal Poly Green
